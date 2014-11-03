@@ -2,6 +2,7 @@
 title: History
 author: mgius
 layout: page
+redirect_from: /a-brief-history-of-cplug/
 ---
 Originally written by **Rob McCready **on the CPLUG message board.
 

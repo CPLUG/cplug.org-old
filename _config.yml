@@ -1,2 +1,5 @@
 name: CPLUG
 highlighter: pygments
+permalink: pretty
+gems:
+  - jekyll-redirect-from

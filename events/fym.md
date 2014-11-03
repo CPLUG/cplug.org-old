@@ -2,6 +2,7 @@
 title: FYM
 author: the CPLUG God
 layout: page
+redirect_from: /fym/
 ---
 **Free Your Machine**
 

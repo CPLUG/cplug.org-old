@@ -2,6 +2,7 @@
 title: Alumni
 author: mgius
 layout: page
+redirect_from: /alums/
 ---
 These are our distinguished alumni. Most hang out in the IRC channel, so if you want to know what it&#8217;s like working at their companies, or get some real advice from the real world, feel free to ask. Note that most of them idle in the channel while at work, so your response (if you get one) could take hours or days. If you&#8217;re an alumni and would like to be included here send your name, current job situation, current distro, and anything else you&#8217;d like on here to mgius &#8220;at&#8221; calpoly &#8220;dot&#8221; edu. If you idle / participate in IRC your handle would be useful as well.
 

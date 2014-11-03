@@ -2,6 +2,7 @@
 title: UNIX for Freshmen 2007
 author: mgius
 layout: page
+redirect_from: /unix-for-freshmen-2007/
 ---
 <p class="regcontainer">
   We had a great presentation by Seth tonight. Here are some notes from him and other CPLUG members on the event:

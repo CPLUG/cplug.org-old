@@ -2,6 +2,7 @@
 title: Node.js Tech Talk and Workshop
 author: frewsxcv
 layout: page
+redirect_from: /nodejs/
 ---
 At its core, node.js is simply a plugin to Google&#8217;s V8 Javascript engine (the same one powering Chrome) that enables developers to run scripts outside a browser and access the filesystem and network stack. One of Javascript&#8217;s unique and powerful features is the ease with which one can write event-driven (asynchronous) code and route data through their programs without cumbersome locks, concurrency issues, and state complexities.
 

@@ -2,6 +2,7 @@
 title: Robocode
 author: wtracy
 layout: page
+redirect_from: /robocode/
 ---
 CPLUG is organizing a Robocode tournament for Cal Poly&#8217;s Open House this year.
 

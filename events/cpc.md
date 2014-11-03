@@ -2,6 +2,7 @@
 title: CPLUG Programming Competition
 author: OMGTallMonster
 layout: page
+redirect_from: /cpc/
 ---
 <pre>_______________________________
 ( Come to the CPLUG Programming )
