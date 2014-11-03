@@ -5,3 +5,8 @@ kramdown:
   entity_output: as_input
 gems:
   - jekyll-redirect-from
+
+markdown: redcarpet
+logo: false
+paginate: 15
+baseurl: /
