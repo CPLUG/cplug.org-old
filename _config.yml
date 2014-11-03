@@ -1,5 +1,7 @@
 name: CPLUG
 highlighter: pygments
 permalink: pretty
+kramdown:
+  entity_output: as_input
 gems:
   - jekyll-redirect-from
