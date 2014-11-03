@@ -1,0 +1,45 @@
+#!/usr/bin/perl
+
+use strict; 
+use warnings;
+use MP3::Info;
+use File::Copy;
+
+my $src = $ARGV[0];
+my $dst = $ARGV[1];
+
+sub processDir {
+   my $dir = shift;
+   opendir DIR,$dir;
+   my @dirlisting;
+   @dirlisting = readdir DIR;
+   my $entry;
+   foreach $entry (@dirlisting) {
+      next if( $entry =~ m/^\.$/ or $entry =~ m/^\.\.$/);
+      my $path = $dir."/".$entry;
+      if ( -d $path ) {
+         processDir($path);
+      } elsif ( -f $path ) {
+         my $tag = get_mp3tag($path);
+	 my $artist = "Unknown";
+	 my $album = "Unknown";
+	 if( $tag ) {
+	    if( $tag->{ARTIST} ) { $artist = $tag->{ARTIST} };
+	    if( $tag->{ALBUM} ) { $album = $tag->{ALBUM} };
+	    if( $tag->{ALBUMARTIST} ) { $artist = $tag->{ALBUMARTIST} };
+	 } else {
+	    print "No tags in $path\n";
+	 }
+         #print "Moving $entry to $dst/$artist/$album/$entry\n";
+	 unless( -d "$dst" ) { mkdir $dst };
+	 unless( -d "$dst/$artist" ) { mkdir "$dst/$artist" };
+	 unless( -d "$dst/$artist/$album" ) { mkdir "$dst/$artist/$album" };
+         move($path,"$dst/$artist/$album/$entry") or print "Failed to move: $entry to $dst/$artist/$album/$entry: $!\n";
+      } else {
+         print "Oops, ".$path." is not a directory or normal file\n";
+      }
+   }
+}
+
+processDir($src);
+exit(0);
