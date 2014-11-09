@@ -1,4 +1,5 @@
 name: CPLUG
+description: Cal Poly Linux Users Group
 highlighter: pygments
 permalink: pretty
 gems:
