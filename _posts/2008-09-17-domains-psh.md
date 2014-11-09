@@ -12,5 +12,5 @@ For those of you who are hearing about us at all of these awesome WOW events, ch
 
 /Nat
 
- [1]: http://cplug.org/irc "CPLUG IRC Info"
+ [1]: /irc/ "CPLUG IRC Info"
  [2]: http://lists.cplug.org/mailman/listinfo/cplug "CPLUG Mailing List"

@@ -15,4 +15,4 @@ Room: <del datetime="2010-02-04T22:22:11+00:00">one of the 300-labs in building 
 
 Uploaded Notes: [Dr. Lupo&#8217;s Go Presentation][1]
 
- [1]: http://cplug.org/t/uploads/2010/02/Go_Presentation.pdf
+ [1]: /t/uploads/2010/02/Go_Presentation.pdf

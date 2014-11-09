@@ -21,4 +21,4 @@ If you have any questions about the event or Linux in general, feel free to [cha
 Thanks, and we hope to see you there!
 
  [1]: http://www.facebook.com/events/344234149004377/
- [2]: http://cplug.org/irc/ "IRC"
+ [2]: /irc/ "IRC"
