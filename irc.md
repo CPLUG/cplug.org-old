@@ -3,14 +3,8 @@ title: IRC
 author: Nat
 layout: page
 ---
-# CPLUG IRC Channel
 
 Our IRC channel has always been very active.  
-<!--ul></p>
-<li><a href="http://cplug.org/ircstats">http://cplug.org/ircstats</a> &#8211; Stats for the IRC channel<a href="http://cplug.org/ircstats"><br />
-</a></li>
-<li><a href="http://ky13.net/cplug">http://ky13.net/cplug</a> &#8211; A list of posted URLs.</li>
-</ul-->
 
 We are **#cplug** on **irc.freenode.net** and you can find more info on our About page.
 
@@ -33,19 +27,19 @@ Running this command in a terminal will work for Ubuntu, and most likely Debian 
 Once you have installed XChat, you should run it. Depending on your distribution, this will be slightly different. However, one method that is very likely to work no matter what you have is to press Alt-F2, then type &#8220;xchat&#8221; (case sensitive) or &#8220;xchat2&#8243; into the window that appears.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://cplug.org/img/xchat/Xchat_Network_List.png" alt="" width="372" height="506" align="bottom" />
+  <img class="aligncenter" src="/img/xchat/Xchat_Network_List.png" alt="" width="372" height="506" align="bottom" />
 </p>
 
 You should see a window asking you for a Nick Name and alternate choices. Choose a name for yourself (and a couple alternates, in case your favorite name is taken), then find &#8220;Freenode&#8221; in the list of Networks below. Select Freenode, then press connect.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://cplug.org/img/xchat/Xchat_Connected.png" alt="Xchat Connected Dialog" width="524" height="364" />
+  <img class="aligncenter" src="/img/xchat/Xchat_Connected.png" alt="Xchat Connected Dialog" width="524" height="364" />
 </p>
 
 After connecting, XChat should ask you for a channel name. Enter #cplug in the box that is available (the # is very important) and press OK. You will now be in the channel and can talk with the other members.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://cplug.org/img/xchat/Xchat_Joined.png" alt="Xchat in #cplug channel" width="741" height="436" />
+  <img class="aligncenter" src="/img/xchat/Xchat_Joined.png" alt="Xchat in #cplug channel" width="741" height="436" />
 </p>
 
 The names who have Green dots next to their names are officers in the club, and the yellow dots are by club convention (Ro)Bots that do various things for us. Everybody else is either a member, alumnus, or in one case a person who wants to learn better Technical English.

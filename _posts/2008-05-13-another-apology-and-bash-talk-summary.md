@@ -13,4 +13,4 @@ We had a very small turn out tonight at our BASH talk. On investigation, we disc
 
 Anyway, thanks to those who showed up in 14-255 tonight for Josh&#8217;s talk. It was very informative. Here is [Josh’s Bash Presentation][1] as a PDF.
 
- [1]: http://cplug.org/t/uploads/2008/05/bash-basics.pdf "Josh’s Bash Presentation"
+ [1]: /t/uploads/2008/05/bash-basics.pdf "Josh’s Bash Presentation"

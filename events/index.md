@@ -28,21 +28,21 @@ Here is a list of stuff from previous talks and such.
     *   [Vim Quick Reference Card][17]
     *   [SillyG&#8217;s intro to Bash.][18]
 
- [1]: http://cplug.org/t/uploads/2010/02/Go_Presentation.pdf "Go Presentation Slides"
- [2]: http://cplug.org/t/uploads/2008/11/music.txt
+ [1]: /t/uploads/2010/02/Go_Presentation.pdf "Go Presentation Slides"
+ [2]: /t/uploads/2008/11/music.txt
  [3]: http://trainman.homelinux.net/hendrix/irssi/
- [4]: http://cplug.org/t/uploads/2008/11/an_introduction_to_perl.pdf
- [5]: http://cplug.org/t/uploads/2009/02/scripts.zip
- [6]: http://cplug.org/t/uploads/2009/02/tcl-expect.pdf
+ [4]: /t/uploads/2008/11/an_introduction_to_perl.pdf
+ [5]: /t/uploads/2009/02/scripts.zip
+ [6]: /t/uploads/2009/02/tcl-expect.pdf
  [7]: unix-for-freshmen-2007/
- [8]: http://cplug.org/guides/red0x-tunnel_past_firewalls.pdf
- [9]: http://cplug.org/guides/red0x-clone_over_ssh.pdf
- [10]: http://cplug.org/guides/realrubytalk.pdf
- [11]: http://cplug.org/guides/pharkas-wireless-talk.pdf
- [12]: http://cplug.org/guides/schemetalk.pdf
- [13]: http://cplug.org/guides/sonar.pdf
- [14]: http://cplug.org/guides/linux-new-tips.pdf
- [15]: http://cplug.org/guides/pharkas-vim/vim.pdf
- [16]: http://cplug.org/guides/pharkas-vim/vimrc.html
- [17]: http://cplug.org/guides/pharkas-vim/vimqrc.pdf
- [18]: http://cplug.org/guides/bash-basics.pdf
+ [8]: /guides/red0x-tunnel_past_firewalls.pdf
+ [9]: /guides/red0x-clone_over_ssh.pdf
+ [10]: /guides/realrubytalk.pdf
+ [11]: /guides/pharkas-wireless-talk.pdf
+ [12]: /guides/schemetalk.pdf
+ [13]: /guides/sonar.pdf
+ [14]: /guides/linux-new-tips.pdf
+ [15]: /guides/pharkas-vim/vim.pdf
+ [16]: /guides/pharkas-vim/vimrc.html
+ [17]: /guides/pharkas-vim/vimqrc.pdf
+ [18]: /guides/bash-basics.pdf

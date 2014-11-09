@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>~/.vimrc.html</title>
+<meta name="Generator" content="Vim/6.2">
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#000000" text="#00ff00">
+<pre>
+<font color="#ff6060"><b>&quot;USEFUL COMMANDS (NO CONFIG NEEDED):</b></font>
+<font color="#ff6060"><b>&quot; :sp (filename) - loads filename in new split window. if no filename is</b></font>
+<font color="#ff6060"><b>&quot;                  specified, the current file is loaded </b></font>
+<font color="#ff6060"><b>&quot;   Split window manipulation:</b></font>
+<font color="#ff6060"><b>&quot;   &lt;CTL-W&gt;+</b></font>
+<font color="#ff6060"><b>&quot;           k - move up one split  </b></font>
+<font color="#ff6060"><b>&quot;           j - move down one split</b></font>
+<font color="#ff6060"><b>&quot;           + - make this window bigger</b></font>
+<font color="#ff6060"><b>&quot;           - - make this window smaller</b></font>
+<font color="#ff6060"><b>&quot;   :(w)q - (write and) close this split</b></font>
+<font color="#ff6060"><b>&quot; :TOhtml - creates HTML file from current file using syntax coloring</b></font>
+<font color="#ff6060"><b>&quot;</b></font>
+<font color="#ff6060"><b>&quot; HOW TO USE THE HELP FILES</b></font>
+<font color="#ff6060"><b>&quot; The help files are a great resource, but they're a bit confusing to learn</b></font>
+<font color="#ff6060"><b>&quot; For help on a topic, type :help</b></font>
+<font color="#ff6060"><b>&quot; Links look like |this| - if you cursor over them and type &lt;CTL+]&gt;, you'll</b></font>
+<font color="#ff6060"><b>&quot; jump to that section of help. To get back to where you were, type &lt;CTL+0&gt;</b></font>
+
+<font color="#ffff00"><b>syntax</b></font> <font color="#00ff00"><b>on</b></font>
+
+<font color="#ffff00"><b>colorscheme</b></font> murphy
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>nocompatible</b></font>        <font color="#ff6060"><b>&quot; Use Vim defaults (much better!)</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>bs</b></font>=2                <font color="#ff6060"><b>&quot; Allow backspacing over everything in insert mode</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>ai</b></font>                  <font color="#ff6060"><b>&quot; Always set auto-indenting on</b></font>
+<font color="#ff6060"><b>&quot;set backup             &quot; Keep a backup file</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>viminfo</b></font>='20<font color="#ffff00"><b>,</b></font>\&quot;50    <font color="#ff6060"><b>&quot; read/write a .viminfo file -- limit to only 50</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>history</b></font>=50          <font color="#ff6060"><b>&quot; keep 50 lines of command history</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>ruler</b></font>               <font color="#ff6060"><b>&quot; Show the cursor position all the time</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>ts</b></font>=4                <font color="#ff6060"><b>&quot; 4 space wide tabs</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>sw</b></font>=4
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>softtabstop</b></font>=4       <font color="#ff6060"><b>&quot;makes backspacing over spaced out tabs work real nice</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>expandtab</b></font>           <font color="#ff6060"><b>&quot;expand tabs to spaces</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>ignorecase</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>background</b></font>=dark     <font color="#ff6060"><b>&quot;awesome for terminals with crappy colors (putty!)</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>tagstack</b></font>            <font color="#ff6060"><b>&quot;lets you push and pop your jumps with ctrl+]</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>pastetoggle</b></font>=<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>F11</b></font><font color="#ff6060"><b>&gt;</b></font>   <font color="#ff6060"><b>&quot;when you're pasting stuff this keeps it from getting</b></font>
+<font color="#ff6060"><b>                        &quot;all whacked out with indentation</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>foldmethod</b></font>=manual   <font color="#ff6060"><b>&quot;enable code folding</b></font>
+
+<font color="#ff6060"><b>&quot;javac in vim</b></font>
+<font color="#ff6060"><b>&quot;set makeprg=javac\ %</b></font>
+<font color="#ff6060"><b>&quot;set errorformat=%A%f:%l\ %m,%-Z%p^,%-C%.%#</b></font>
+
+<font color="#ff6060"><b>&quot;gcc in vim</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>makeprg</b></font>=gcc\ -o\ %&lt;\ %
+
+<font color="#ff6060"><b>&quot;dictionary word autocomplete. type &lt;CTL-N&gt; in the middle of a word to use</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>dictionary</b></font>-=/usr/share/dict/words <font color="#8080ff"><b>dictionary</b></font>+=/usr/share/dict/words
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>complete</b></font>-=k <font color="#8080ff"><b>complete</b></font>+=k
+
+<font color="#ff6060"><b>&quot;fix broke-ass sun terminals (if we're stuck on one)</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>t_cl</b></font>=<font color="#ff6060"><b>^[</b></font>[2J
+
+
+<font color="#ff6060"><b>&quot; Don't use Ex mode, use Q for formatting</b></font>
+<font color="#ffff00"><b>map</b></font> Q gq
+
+<font color="#ff6060"><b>&quot;collapsing window splits</b></font>
+<font color="#ffff00"><b>map</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-J</b></font><font color="#ff6060"><b>&gt;</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-W</b></font><font color="#ff6060"><b>&gt;</b></font><font color="#ffff00"><b>j</b></font><font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-W</b></font><font color="#ff6060"><b>&gt;</b></font>_
+<font color="#ffff00"><b>map</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-K</b></font><font color="#ff6060"><b>&gt;</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-W</b></font><font color="#ff6060"><b>&gt;</b></font><font color="#ffff00"><b>k</b></font><font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-W</b></font><font color="#ff6060"><b>&gt;</b></font>_
+
+<font color="#ff6060"><b>&quot; remove ^M characters from windows files</b></font>
+<font color="#ffff00"><b>map</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-M</b></font><font color="#ff6060"><b>&gt;</b></font> mvggVG<font color="#ffff00"><b>:s</b></font><font color="#ff6060"><b>/</b></font><font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-V</b></font><font color="#ff6060"><b>&gt;&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;</b></font><font color="#ff6060"><b>//</b></font><font color="#ff6060"><b>g</b></font><font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;</b></font>`<font color="#ffff00"><b>v</b></font>
+
+<font color="#ff6060"><b>&quot;cstags mapping</b></font>
+<font color="#ffff00"><b>map</b></font> g<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-]</b></font><font color="#ff6060"><b>&gt;</b></font> :cs <font color="#ffff00"><b>find</b></font> <font color="#00ff00"><b>3</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-R</b></font><font color="#ff6060"><b>&gt;</b></font>=<font color="#00ffff"><b>expand</b></font>(<font color="#00ff00"><b>&quot;&lt;cword&gt;&quot;</b></font>)<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;</b></font>
+<font color="#ffff00"><b>map</b></font> g<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-</b></font><font color="#ff6060"><b>\&gt;</b></font> :cs <font color="#ffff00"><b>find</b></font> <font color="#00ff00"><b>0</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-R</b></font><font color="#ff6060"><b>&gt;</b></font>=<font color="#00ffff"><b>expand</b></font>(<font color="#00ff00"><b>&quot;&lt;cword&gt;&quot;</b></font>)<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;</b></font>
+
+<font color="#ff6060"><b>&quot;rot13 dmca-grade encryption</b></font>
+<font color="#ff6060"><b>&quot;this is useful to obfuscate whatever it is that you're working on temporarily</b></font>
+<font color="#ff6060"><b>&quot;if someone walks by (vim pr0n?)</b></font>
+<font color="#ffff00"><b>map</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>F3</b></font><font color="#ff6060"><b>&gt;</b></font> mzggVGg?`z
+
+<font color="#ff6060"><b>&quot;space bar folding</b></font>
+<font color="#ffff00"><b>nnoremap</b></font>  <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>silent</b></font><font color="#ff6060"><b>&gt;</b></font>  <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>space</b></font><font color="#ff6060"><b>&gt;</b></font> :<font color="#ffff00"><b>exe</b></font> <font color="#00ff00"><b>'silent! normal! za'</b></font><font color="#ffff00"><b>.</b></font>(foldlevel(<font color="#00ff00"><b>'.'</b></font>)?<font color="#00ff00"><b>''</b></font>:<font color="#00ff00"><b>'l'</b></font>)<font color="#ffff00"><b>&lt;cr&gt;</b></font>
+
+<font color="#ff6060"><b>&quot;don't expand tabs if we're in a makefile</b></font>
+<font color="#ffff00"><b>au</b></font> <font color="#00ff00"><b>BufRead</b></font>,<font color="#00ff00"><b>BufNewFile</b></font> Makefile <font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>ts</b></font>=4 <font color="#8080ff"><b>sw</b></font>=4 <font color="#8080ff"><b>noexpandtab</b></font>
+
+<font color="#ffff00"><b>autocmd</b></font> <font color="#00ff00"><b>BufNewFile</b></font>,<font color="#00ff00"><b>BufRead</b></font> *.txt <font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>tw</b></font>=78
+<font color="#ffff00"><b>autocmd</b></font> <font color="#00ff00"><b>BufNewFile</b></font>,<font color="#00ff00"><b>BufRead</b></font> *.tex <font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>tw</b></font>=80
+
+<font color="#ff6060"><b>&quot;good tab completion - press &lt;tab&gt; to autocomplete if there's a character</b></font>
+<font color="#ff6060"><b>&quot;previously</b></font>
+<font color="#ffff00"><b>function</b></font> InsertTabWrapper()
+      <font color="#ffff00"><b>let</b></font> col <font color="#ffff00"><b>=</b></font> <font color="#00ffff"><b>col</b></font>(<font color="#00ff00"><b>'.'</b></font>) <font color="#ffff00"><b>-</b></font> <font color="#00ff00"><b>1</b></font>
+      <font color="#ffff00"><b>if</b></font> !<font color="#ffff00"><b>col</b></font> <font color="#ffff00"><b>||</b></font> <font color="#00ffff"><b>getline</b></font>(<font color="#00ff00"><b>'.'</b></font>)[<font color="#ffff00"><b>col</b></font> <font color="#ffff00"><b>-</b></font> <font color="#00ff00"><b>1</b></font>] <font color="#ffff00"><b>!~</b></font> <font color="#00ff00"><b>'\k'</b></font>
+          <font color="#ffff00"><b>return</b></font> <font color="#00ff00"><b>&quot;\&lt;tab&gt;&quot;</b></font>
+      <font color="#ffff00"><b>else</b></font>
+          <font color="#ffff00"><b>return</b></font> <font color="#00ff00"><b>&quot;\&lt;c-p&gt;&quot;</b></font>
+      <font color="#ffff00"><b>endif</b></font>
+<font color="#ffff00"><b>endfunction</b></font>
+
+<font color="#ffff00"><b>inoremap</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>tab</b></font><font color="#ff6060"><b>&gt;</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>c-r</b></font><font color="#ff6060"><b>&gt;</b></font>=InsertTabWrapper()<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>cr</b></font><font color="#ff6060"><b>&gt;</b></font>
+
+<font color="#ffff00"><b>if</b></font> <font color="#00ffff"><b>has</b></font>(<font color="#00ff00"><b>&quot;cscope&quot;</b></font>)
+    <font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>csprg</b></font>=/usr/bin/cscope
+    <font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>csto</b></font>=0
+    <font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>cst</b></font>
+    <font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>nocsverb</b></font>
+<font color="#ff6060"><b>    &quot; add any database in current directory</b></font>
+    <font color="#ffff00"><b>if</b></font> <font color="#00ffff"><b>filereadable</b></font>(<font color="#00ff00"><b>&quot;cscope.out&quot;</b></font>)
+        cs add cscope<font color="#ffff00"><b>.</b></font>out
+<font color="#ff6060"><b>    &quot; else add database pointed to by environment</b></font>
+    <font color="#ffff00"><b>elseif</b></font> <font color="#8080ff"><b>$CSCOPE_DB</b></font> <font color="#ffff00"><b>!=</b></font> <font color="#00ff00"><b>&quot;&quot;</b></font>
+        cs add <font color="#8080ff"><b>$CSCOPE_DB</b></font>
+    <font color="#ffff00"><b>endif</b></font>
+    <font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>csverb</b></font>
+
+<font color="#ff6060"><b>    &quot;   's'   symbol: find all references to the token under cursor</b></font>
+<font color="#ff6060"><b>    &quot;   'g'   global: find global definition(s) of the token under cursor</b></font>
+<font color="#ff6060"><b>    &quot;   'c'   calls:  find all calls to the function name under cursor</b></font>
+<font color="#ff6060"><b>    &quot;   't'   text:   find all instances of the text under cursor</b></font>
+<font color="#ff6060"><b>    &quot;   'e'   egrep:  egrep search for the word under cursor</b></font>
+<font color="#ff6060"><b>    &quot;   'f'   file:   open the filename under cursor</b></font>
+<font color="#ff6060"><b>    &quot;   'i'   includes: find files that include the filename under cursor</b></font>
+<font color="#ff6060"><b>    &quot;   'd'   called: find functions that function under cursor calls</b></font>
+    <font color="#ffff00"><b>nmap</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-</b></font><font color="#ff6060"><b>\&gt;</b></font>s :cs <font color="#ffff00"><b>find</b></font> s <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-R</b></font><font color="#ff6060"><b>&gt;</b></font>=<font color="#00ffff"><b>expand</b></font>(<font color="#00ff00"><b>&quot;&lt;cword&gt;&quot;</b></font>)<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;</b></font>
+    <font color="#ffff00"><b>nmap</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-</b></font><font color="#ff6060"><b>\&gt;</b></font>g :cs <font color="#ffff00"><b>find</b></font> <font color="#ffff00"><b>g</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-R</b></font><font color="#ff6060"><b>&gt;</b></font>=<font color="#00ffff"><b>expand</b></font>(<font color="#00ff00"><b>&quot;&lt;cword&gt;&quot;</b></font>)<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;</b></font>
+    <font color="#ffff00"><b>nmap</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-</b></font><font color="#ff6060"><b>\&gt;</b></font>c :cs <font color="#ffff00"><b>find</b></font> <font color="#ffff00"><b>c</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-R</b></font><font color="#ff6060"><b>&gt;</b></font>=<font color="#00ffff"><b>expand</b></font>(<font color="#00ff00"><b>&quot;&lt;cword&gt;&quot;</b></font>)<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;</b></font>
+    <font color="#ffff00"><b>nmap</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-</b></font><font color="#ff6060"><b>\&gt;</b></font>t :cs <font color="#ffff00"><b>find</b></font> <font color="#ffff00"><b>t</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-R</b></font><font color="#ff6060"><b>&gt;</b></font>=<font color="#00ffff"><b>expand</b></font>(<font color="#00ff00"><b>&quot;&lt;cword&gt;&quot;</b></font>)<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;</b></font>
+    <font color="#ffff00"><b>nmap</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-</b></font><font color="#ff6060"><b>\&gt;</b></font>e :cs <font color="#ffff00"><b>find</b></font> <font color="#ffff00"><b>e</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-R</b></font><font color="#ff6060"><b>&gt;</b></font>=<font color="#00ffff"><b>expand</b></font>(<font color="#00ff00"><b>&quot;&lt;cword&gt;&quot;</b></font>)<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;</b></font>
+    <font color="#ffff00"><b>nmap</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-</b></font><font color="#ff6060"><b>\&gt;</b></font>f :cs <font color="#ffff00"><b>find</b></font> <font color="#ffff00"><b>f</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-R</b></font><font color="#ff6060"><b>&gt;</b></font>=<font color="#00ffff"><b>expand</b></font>(<font color="#00ff00"><b>&quot;&lt;cfile&gt;&quot;</b></font>)<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;</b></font>
+    <font color="#ffff00"><b>nmap</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-</b></font><font color="#ff6060"><b>\&gt;</b></font>i :cs <font color="#ffff00"><b>find</b></font> i ^<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-R</b></font><font color="#ff6060"><b>&gt;</b></font>=<font color="#00ffff"><b>expand</b></font>(<font color="#00ff00"><b>&quot;&lt;cfile&gt;&quot;</b></font>)<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;</b></font>$<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;</b></font>
+    <font color="#ffff00"><b>nmap</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-</b></font><font color="#ff6060"><b>\&gt;</b></font>d :cs <font color="#ffff00"><b>find</b></font> <font color="#ffff00"><b>d</b></font> <font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>C-R</b></font><font color="#ff6060"><b>&gt;</b></font>=<font color="#00ffff"><b>expand</b></font>(<font color="#00ff00"><b>&quot;&lt;cword&gt;&quot;</b></font>)<font color="#ff6060"><b>&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;&lt;</b></font><font color="#ff6060"><b>CR</b></font><font color="#ff6060"><b>&gt;</b></font>
+<font color="#ffff00"><b>endif</b></font>
+
+<font color="#ff6060"><b>&quot;latexSuite plugin</b></font>
+<font color="#ffff00"><b>filetype</b></font> <font color="#00ff00"><b>plugin</b></font> <font color="#00ff00"><b>on</b></font>
+<font color="#ffff00"><b>set</b></font> <font color="#8080ff"><b>grepprg</b></font>=grep\ -nH\
+</pre>
+</body>
+</html>

@@ -12,7 +12,7 @@ We install *Ubuntu 14.04* or *Linux Mint 16 *by default, but if you would like
 
 Your computer must be able to boot from a CD-ROM or a USB drive, or from the network (PXE boot).  If you cannot boot from either, or if your computer cannot run Windows, or if you have really really weird hardware, please [contact our mailing list][2] directly so that we can be prepared for you.
 
-<span style="font-size: 130%; font-weight: bold;"><a href="http://cplug.org/2013/01/17/fym-winter-2013/">This quarter&#8217;s (Spring 2014) FYM</a> is Saturday May 3 at 10am in 20-124 (Engineering East Networks Lab)</span>
+<span style="font-size: 130%; font-weight: bold;"><a href="/2013/01/17/fym-winter-2013/">This quarter&#8217;s (Spring 2014) FYM</a> is Saturday May 3 at 10am in 20-124 (Engineering East Networks Lab)</span>
 
  [1]: http://windows.microsoft.com/en-US/windows-vista/Improve-performance-by-defragmenting-your-hard-disk
  [2]: http://lists.cplug.org/mailman/listinfo/cplug

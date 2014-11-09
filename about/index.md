@@ -13,4 +13,4 @@ Thanks for stopping by. We hope to see you out in the Real World at one of our m
 
  [1]: http://lists.cplug.org
  [2]: irc://irc.freenode.net/cplug
- [3]: http://cplug.org/t/history/alums/
+ [3]: alums/
