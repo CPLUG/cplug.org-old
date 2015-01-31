@@ -2,9 +2,6 @@
 title: Free Linux Help Every Week!
 author: jhladky
 layout: post
-permalink: /2014/10/12/free-linux-help/
-categories:
-  - Announcements
 ---
 CPLUG offers free Linux help every Friday in 20-124 (Engineering East Networks Lab) from 1pm to 2:30pm. We are available to help with any problem you might have, including any of the following:
 
