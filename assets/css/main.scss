@@ -3,6 +3,39 @@
 # Change this file for any custom CSS.
 ---
 
+#officers {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    text-align: center;
+    flex: 1 0 200px;
+    flex-wrap: 1;
+    margin: 10px;
+
+    img {
+      display: block;
+      border-radius: 50%;
+    }
+
+    p {
+      font-size: 0.8em;
+    }
+
+    .irc {
+      display: block;
+    }
+
+    .social {
+      a {
+        padding: 0 0.3em;
+      }
+    }
+  }
+}
+
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
 	display:inline;
