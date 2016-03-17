@@ -6,7 +6,7 @@ This website is built with [Jekyll](http://jekyllrb.com/).
 Development
 -----------
 
- 1. `gem install jekyll jekyll-redirect-from`
+ 1. `gem install jekyll jekyll-redirect-from jekyll-paginate redcarpet`
  2. `jekyll serve --watch`
  3. start editing files
 
