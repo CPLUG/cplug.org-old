@@ -172,6 +172,43 @@ Red Hat Enterprise Linux 5.1. In the past I have used Ubuntu, SLES, Red Hat Desk
 
 Of course, like all true geeks, I hate the CTRL key. Therefore I am a strong VI advocate. I haven&#8217;t lost the music nerd in me either, and I still play trumpet. I also love to travel the world and visit new places. Although I&#8217;m not crazy like Matt, so I don&#8217;t strap on crampons and go climbing giant hunks of ice when I get there.
 
+\___\___\___\___\___\___\___\___\____
+
+**[Neil Souza][]** ([nrser](https://github.com/nrser)) &#8211; 2007
+
+[Neil Souza]: http://neilsouza.com
+[nrser]: https://github.com/nrser
+
+**Current Job Situation:**
+
+-   founder & CEO at [北AREA][], an art & apparel project based in Beijing, China, set to launch in Spring 2016.
+-   advisor at [Super Effective][], a mobile app start-up based in Beijing, China.
+-   assorted angel investments.
+
+[北AREA]: http://beiarea.com
+[Super Effective]: http://supereffective.com
+
+**Previous Job Situations:**
+
+-   co-founder & CTO at [Super Effective][] (see above).
+-   co-founder & CTO at Social Express, a social games start-up based in San Francisco. [acquired][se-acq] by [Viacom][] in June, 2010.
+-   ~7th employee, Mafia Wars co-creator, principle author, director of engineering and GM at [Zynga][], a social games start-up based in San Francisco that made it's initial public offering in 2011.
+
+[se-acq]: http://venturebeat.com/2010/07/07/viacom-acquires-developer-social-express-as-mtv-networks-dives-into-social-games-exclusive/
+[Viacom]: http://www.viacom.com/
+[Mafia Wars]: http://www.mafiawars.zynga.com
+[Zynga]: https://www.zynga.com/
+
+**Current Distribution: OSX, Ubuntu**
+
+i develop on OSX 'cause i need Adobe and Microsoft apps. running mostly Ubuntu on production servers, though i've used a lot of RHEL/CentOS in the past.
+
+**Other Tidbits:**
+
+i walked into a CPLUG event some time in 2006 or 2007 and had someone help me install Linux on a half-broken Dell laptop that my then-girlfriend had handed me down. i spent the next several months stumbling through admin'ing the machine, eventually even getting the NIC card working. this turned out to be the single most valuable learning experience i had in my academic years, and provided an invaluable foothold when starting my career. thanks.
+
+Language: Ruby for tools, scripts and personal stuff. isomorphic Javascript for web apps.
+
  [1]: http://suckless.org/
  [2]: http://xkcd.com/
  [3]: http://ruby-lang.org/
