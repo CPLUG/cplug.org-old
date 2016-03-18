@@ -202,7 +202,7 @@ i develop on OSX 'cause i need Adobe and Microsoft apps. running mostly Ubuntu o
 
 ### Other Tidbits
 
-I walked into a CPLUG event some time in 2006 or 2007 and had someone help me install Linux on a half-broken Dell laptop that my then-girlfriend had handed me down. i spent the next several months stumbling through admin'ing the machine, eventually even getting the NIC card working. this turned out to be the single most valuable learning experience i had in my academic years, and provided an invaluable foothold when starting my career. thanks.
+i walked into a CPLUG event some time in 2006 or 2007 and had someone help me install Linux on a half-broken Dell laptop that my then-girlfriend had handed me down. i spent the next several months stumbling through admin'ing the machine, eventually even getting the NIC card working. this turned out to be the single most valuable learning experience i had in my academic years, and provided an invaluable foothold when starting my career. thanks.
 
 Language: Ruby for tools, scripts and personal stuff. isomorphic Javascript for web apps.
 
@@ -215,7 +215,7 @@ Language: Ruby for tools, scripts and personal stuff. isomorphic Javascript for 
 
 ### Current Job Situation
 
-I am currently working in Brooklyn on the Hillary Clinton campaign as a Senior Site Reliability Engineer. My resume is at [natwelch.com/resume](http://natwelch.com/resume), but since graduating I've worked at a few startups, Google and attended the [Recurse Center](http://recurse.com). You can stalk me at http://natwelch.com.
+I am currently working in Brooklyn on the Hillary Clinton campaign as a Senior Site Reliability Engineer. My resume is at [natwelch.com/resume](http://natwelch.com/resume), but since graduating I've worked at a few startups, Google and attended the [Recurse Center](http://recurse.com). You can stalk me at [natwelch.com](http://natwelch.com).
 
 ### Current Distribution & Linux History
 
