@@ -221,7 +221,7 @@ I am currently working in Brooklyn on the Hillary Clinton campaign as a Senior S
 
 My main computing devices are Macbook Airs running OSX. That being said, I spend most of my days ssh'd into something resembling a debian fork. Work has a ton of Ubuntu cloud machines, I have a variety of servers running debian testing in a few closets, and am constantly playing with Raspbian.
 
-I got into Linux in 2003 when I attended a [NBLUG](http://nblug.org/) meeting. From there I started a history of using Linux as my path to being social with people. I love hanging out with nerds on IRC, forums, mailing lists and in person. My first install was Red Hat 7, then RH9 and then I did FC1. Once I got an install of debian testing going though, I've been a Debian man ever since. I've experimented with other distros, but I keep coming back to debian.
+I got into Linux [in 2003](http://nblug.org/pipermail/talk/2003-May/004152.html) when I attended a [NBLUG](http://nblug.org/) meeting. From there I started a history of using Linux as my path to being social with people. I love hanging out with nerds on IRC, forums, mailing lists and in person. My first install was Red Hat 7, then RH9 and then I did FC1. Once I got an install of debian testing going though, I've been a Debian man ever since. I've experimented with other distros, but I keep coming back to debian.
 
 ### Other Tidbits
 
