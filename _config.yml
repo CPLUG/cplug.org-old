@@ -12,3 +12,4 @@ kramdown:
   toc_levels: 1..2
 logo: false
 paginate: 5
+baseurl: /
