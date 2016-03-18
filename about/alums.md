@@ -217,9 +217,11 @@ Language: Ruby for tools, scripts and personal stuff. isomorphic Javascript for 
 
 I am currently working in Brooklyn on the Hillary Clinton campaign as a Senior Site Reliability Engineer. My resume is at [natwelch.com/resume](http://natwelch.com/resume), but since graduating I've worked at a few startups, Google and attended the [Recurse Center](http://recurse.com). You can stalk me at http://natwelch.com.
 
-### Current Distribution
+### Current Distribution & Linux History
 
 My main computing devices are Macbook Airs running OSX. That being said, I spend most of my days ssh'd into something resembling a debian fork. Work has a ton of Ubuntu cloud machines, I have a variety of servers running debian testing in a few closets, and am constantly playing with Raspbian.
+
+I got into Linux in 2003 when I attended a [NBLUG](http://nblug.org/) meeting. From there I started a history of using Linux as my path to being social with people. I love hanging out with nerds on IRC, forums, mailing lists and in person. My first install was Red Hat 7, then RH9 and then I did FC1. Once I got an install of debian testing going though, I've been a Debian man ever since. I've experimented with other distros, but I keep coming back to debian.
 
 ### Other Tidbits
 
