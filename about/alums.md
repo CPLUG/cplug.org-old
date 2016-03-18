@@ -1,10 +1,8 @@
 ---
-
 title: Alumni
 author: mgius
 layout: page
 redirect_from: /alums/
-
 ---
 
 These are our distinguished alumni. Most hang out in the IRC channel, so if you want to know what it is like working at their companies, or get some real advice from the real world, feel free to ask.
