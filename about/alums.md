@@ -209,3 +209,18 @@ Language: Ruby for tools, scripts and personal stuff. isomorphic Javascript for 
  [1]: http://suckless.org/
  [2]: http://xkcd.com/
  [3]: http://ruby-lang.org/
+
+
+## Nat Welch (icco) -- 2011
+
+### Current Job Situation
+
+I am currently working in Brooklyn on the Hillary Clinton campaign as a Senior Site Reliability Engineer. My resume is at [natwelch.com/resume](http://natwelch.com/resume), but since graduating I've worked at a few startups, Google and attended the [Recurse Center](http://recurse.com). You can stalk me at http://natwelch.com.
+
+### Current Distribution
+
+My main computing devices are Macbook Airs running OSX. That being said, I spend most of my days ssh'd into something resembling a debian fork. Work has a ton of Ubuntu cloud machines, I have a variety of servers running debian testing in a few closets, and am constantly playing with Raspbian.
+
+### Other Tidbits
+
+I served as both CPLUG's and ACM's web master for a large portion of the time I was at Cal Poly. I never missed an installfest in the five years I was at poly.
