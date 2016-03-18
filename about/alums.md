@@ -169,10 +169,10 @@ Red Hat Enterprise Linux 5.1. In the past I have used Ubuntu, SLES, Red Hat Desk
 
 Of course, like all true geeks, I hate the CTRL key. Therefore I am a strong VI advocate. I haven't lost the music nerd in me either, and I still play trumpet. I also love to travel the world and visit new places. Although I'm not crazy like Matt, so I don't strap on crampons and go climbing giant hunks of ice when I get there.
 
-## [Neil Souza][] ([nrser](https://github.com/nrser)) -- 2007
+## Neil Souza (nrser) -- 2007
 
-[Neil Souza]: http://neilsouza.com
-[nrser]: https://github.com/nrser
+ - [neilsouza.com](http://neilsouza.com)
+ - [github.com/nrser](https://github.com/nrser)
 
 ### Current Job Situation
 
