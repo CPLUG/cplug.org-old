@@ -11,7 +11,7 @@ These are our distinguished alumni. Most hang out in the IRC channel, so if you 
 
 Note that most of them idle in the channel while at work, so your response (if you get one) could take hours or days.
 
-If you're an alumni and would like to be included here, please file a pull request on https://github.com/CPLUG/cplug.org.
+If you're an alumni and would like to be included here, please file a pull request on [github.com/CPLUG/cplug.org](https://github.com/CPLUG/cplug.org).
 
 ## Kevin Worth (aka ceeKay) -- 2006
 
@@ -168,8 +168,7 @@ Red Hat Enterprise Linux 5.1. In the past I have used Ubuntu, SLES, Red Hat Desk
 
 Of course, like all true geeks, I hate the CTRL key. Therefore I am a strong VI advocate. I haven't lost the music nerd in me either, and I still play trumpet. I also love to travel the world and visit new places. Although I'm not crazy like Matt, so I don't strap on crampons and go climbing giant hunks of ice when I get there.
 
-
-## Neil Souza][] ([nrser](https://github.com/nrser)) -- 2007
+## [Neil Souza][] ([nrser](https://github.com/nrser)) -- 2007
 
 [Neil Souza]: http://neilsouza.com
 [nrser]: https://github.com/nrser
