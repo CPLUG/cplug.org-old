@@ -1,17 +1,15 @@
-cplug.org
-=========
+# cplug.org
 
 This website is built with [Jekyll](http://jekyllrb.com/).
 
-Development
------------
+## Development
 
- 1. `gem install jekyll jekyll-redirect-from jekyll-paginate redcarpet`
- 2. `jekyll serve --watch`
- 3. start editing files
+ 1. `gem install bundler`
+ 2. `bundle install`
+ 3. `jekyll serve --watch`
+ 4. start editing files
 
-Deployment
-----------
+## Deployment
 
  1. `jekyll build`
  2. `rsync -rcvz --delete _site/ cplug@cplug.org:public_html`
