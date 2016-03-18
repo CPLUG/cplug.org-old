@@ -1,12 +1,15 @@
 name: CPLUG
 description: Cal Poly Linux Users Group
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
 gems:
   - jekyll-redirect-from
   - jekyll-paginate
 
-markdown: redcarpet
+markdown: kramdown
+kramdown:
+  input: GFM
+  toc_levels: 1..2
 logo: false
 paginate: 5
 baseurl: /
