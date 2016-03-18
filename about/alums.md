@@ -13,6 +13,9 @@ Note that most of them idle in the channel while at work, so your response (if y
 
 If you're an alumni and would like to be included here, please file a pull request on [github.com/CPLUG/cplug.org](https://github.com/CPLUG/cplug.org).
 
+* toc
+{:toc}
+
 ## Kevin Worth (aka ceeKay) -- 2006
 
 ### Current Job Situation
