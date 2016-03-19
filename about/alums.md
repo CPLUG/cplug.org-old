@@ -9,7 +9,7 @@ These are our distinguished alumni. Most hang out in the IRC channel, so if you 
 
 Note that most of them idle in the channel while at work, so your response (if you get one) could take hours or days.
 
-If you're an alumni and would like to be included here, please file a pull request on [github.com/CPLUG/cplug.org](https://github.com/CPLUG/cplug.org).
+If you're an alumnus and would like to be included here, please file a pull request on [github.com/CPLUG/cplug.org](https://github.com/CPLUG/cplug.org).
 
 * toc
 {:toc}
