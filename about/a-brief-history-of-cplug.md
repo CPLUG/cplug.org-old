@@ -4,7 +4,7 @@ author: mgius
 layout: page
 redirect_from: /a-brief-history-of-cplug/
 ---
-Originally written by **Rob McCready **on the CPLUG message board.
+Originally written by **Rob McCready** on the CPLUG message board.
 
 > <pre>Some people have asked me to compile a history (as best I remember it) of
 the Cal Poly Linux Users Group. This will by no means be complete as I was
@@ -125,4 +125,27 @@ Unknown. Can you help us?
 *   President: Corey Farwell
 *   Vice President: Corey Ford
 *   Secretary: Kevin Stein
-*   &#8220;Webmaster&#8221;: Michael LeKander
+*   "Webmaster": Michael LeKander
+* Lots of collaboration with The White Hat in this era
+
+2013-2014
+
+* President: Corey Ford
+* Vice President: Peter Faiman
+* Treasurer: Robin Choudhury
+* Secretary/Webmaster: Michael LeKander
+* Chief party coordinator: Corey Farwell
+
+2014-2015
+
+* President: Jacob Hladky
+* Vice President: Vignesh Kalidas
+* Treasurer: Robin Choudhury
+* Industrial Relations: Corey Ford
+* FYM returns to the Networks Lab and experiments with a weekly form
+
+2015-2016
+
+* President: Jeff McGovern
+* Vice President: Vignesh Kalidas
+* Treasurer: Corey Ford
