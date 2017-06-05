@@ -149,3 +149,10 @@ Unknown. Can you help us?
 * President: Jeff McGovern
 * Vice President: Vignesh Kalidas
 * Treasurer: Corey Ford
+
+2016-2017
+
+* President: Jim Heald
+* Vice President: Leah Torres 
+* Treasurer: Jasper Kahn
+* Secretary: Nick Gonella
