@@ -1,0 +1,8 @@
+.officers-table {
+    display: table;
+    width: 100%;
+}
+
+.officer-tile {
+    display: table-cell;
+}
