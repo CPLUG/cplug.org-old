@@ -1,15 +1,8 @@
-# cplug.org
+# cplug.org mirror
 
-This website is built with [Jekyll](http://jekyllrb.com/).
+This website is built using the Materialize CSS framework.
 
 ## Development
 
- 1. `gem install bundler`
- 2. `bundle install`
- 3. `bundle exec jekyll serve --watch`
- 4. start editing files
-
-## Deployment
-
- 1. `bundle exec jekyll build`
- 2. `rsync -rcvz --delete _site/ cplug@cplug.org:public_html`
+In order to develop you must be granted access to the private repository. Contact
+Jim Heald (<jrheald@calpoly.edu>) for more info
