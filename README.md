@@ -1,6 +1,6 @@
 # cplug.org mirror
 
-This website is built using the Materialize CSS framework.
+This website is built using the [Materialize CSS framework](http://materializecss.com).
 
 ## Development
 
