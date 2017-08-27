@@ -19,8 +19,10 @@
     
     	<div class="col s12 m8 l8">
     		<div class="card-panel white">
-      		<h3 class="header">About</h3>
+      		<h4 class="header">About</h4>
       		<p class="grey-text text-darken-3 lighten-3">We are CPLUG, the Cal Poly Linux Users Group. We're both users and fans of the GNU/Linux Operating System, and we want you to be too. We have regular talks and meetings, as well as social events when the opportunity arises.</p>
+				<h4 class="header">Mission</h4>            
+            <p class="grey-text text-darken-3 lighten-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu</p>    		
     		</div>
     	</div>
     	
@@ -45,27 +47,27 @@
     </div>
     </div>
         
-        <div class="parallax-container" style="height: 350px;">
+        <div class="parallax-container" style="height: 400px;">
       <div class="parallax"><img src="images/wordcloud.png"></div>
     </div>
     
     
-    
+    <div class="section grey darken-3">
+    <br>
     <div class="carousel carousel-slider center" data-indicators="true">
 		     
-		       <div class="fixed-action-btn">
-		        <a class="btn-floating btn-large waves-effect waves-light green darken-2" id="next" onclick=""><i class="material-icons">keyboard_arrow_right
-</i></a>
-
-  		  </div>  
-		    <div class="carousel-item grey black-text" href="#one!">
+		       <div class="fixed-action-btn left">
+		        	<a class="btn-floating btn-large waves-effect waves-light grey darken-2" id="next" onclick="$('.carousel').carousel('next');"><i class="material-icons">keyboard_arrow_right</i></a>
+  		       </div>  
+  		       
+  		       
+		    <div class="carousel-item green darken-2 black-text" href="#one!">
 		      <h2>First Panel</h2>
-		      <p class="black-text">This is your first panel</p>
+		      <p class="black-text">This is your First panel</p>
 		    </div>
 
 		    <div class="carousel-item grey black-text" href="#two!">
-		      <h2>Second Panel</h2>
-		      <p class="black-text">This is your second panel</p>
+		      <h2>Second Panel</h2>      
 		    </div> 
 
 		    <div class="carousel-item grey black-text" href="#three!">
@@ -73,7 +75,8 @@
 		      <p class="black-text">This is your third panel</p>
 		    </div>
 		  </div>
-       	 
+		  <br>
+      </div> 	 
         	 
         <div class="parallax-container" style="height: 500px;">
       <div class="parallax"><img src="images/poly1.jpg"></div>
@@ -91,7 +94,7 @@
 			        <div class="card-panel grey lighten-5 z-depth-1">
 			          <div class="row valign-wrapper">
 			            <div class="col s2">
-			              <img src="images/sample.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+			              <img src="images/sample.jpg" alt="" class="circle responsive-img"> 
 			            </div>
 			            <div class="col s10">
 			              <span class="black-text">
@@ -160,6 +163,7 @@
 
 
     <script>
+    
     $( document ).ready(function(){
         $(".button-collapse").sideNav();
         $('.parallax').parallax();
