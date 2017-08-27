@@ -4,6 +4,7 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
         <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
@@ -16,17 +17,27 @@
         <div class="section green darken-2">
     <div class="row container">
     
-    	<div class="col s8">
+    	<div class="col s12 m8 l8">
     		<div class="card-panel white">
       		<h3 class="header">About</h3>
       		<p class="grey-text text-darken-3 lighten-3">We are CPLUG, the Cal Poly Linux Users Group. We're both users and fans of the GNU/Linux Operating System, and we want you to be too. We have regular talks and meetings, as well as social events when the opportunity arises.</p>
     		</div>
     	</div>
     	
-    	<div class="col s4">
+    	<div class="col s12 m4 l4">
     		<div class="card-panel white">
-      		<h2 class="header">Contact</h2>
-      		<p class="grey-text text-darken-3 lighten-3">We are CPLUG, the Cal Poly Linux Users Group. We're both users and fans of the GNU/Linux Operating System, and we want you to be too. We have regular talks and meetings, as well as social events when the opportunity arises.</p>
+    		   <h5 class="black-text">Mailing List</h5>
+                 <div class="input-field col s12">
+			          <input id="name" type="text" class="validate">
+			          <label for="name">Name</label>
+			        </div>
+			        <div class="input-field col s12">
+			          <input id="email" type="email" class="validate">
+			          <label for="email">Email</label>
+			        </div>				    		
+			        <button class="btn waves-effect waves-light grey darken-3" type="submit" name="action">Submit
+    						<i class="material-icons right">send</i>
+  					</button>  
     		</div>
     	</div>
     	
@@ -43,7 +54,8 @@
     <div class="carousel carousel-slider center" data-indicators="true">
 		     
 		       <div class="fixed-action-btn">
-		        <a class="btn-floating btn-large waves-effect waves-light red" id="next" onclick=""><i class="material-icons">add</i></a>
+		        <a class="btn-floating btn-large waves-effect waves-light green darken-2" id="next" onclick=""><i class="material-icons">keyboard_arrow_right
+</i></a>
 
   		  </div>  
 		    <div class="carousel-item grey black-text" href="#one!">
@@ -60,24 +72,92 @@
 		      <h2>Third Panel</h2>
 		      <p class="black-text">This is your third panel</p>
 		    </div>
-		  
 		  </div>
        	 
         	 
         <div class="parallax-container" style="height: 500px;">
       <div class="parallax"><img src="images/poly1.jpg"></div>
     </div>	        
-		
-		 
 		  <br>
-        
+		  
+		<!-- Officer Section --> 		  
+		  
+        <div class="container">
+			<ul class="collapsible" data-collapsible="accordion">
+		    <li>
+		      <div class="collapsible-header">President: Jim Heald<i class="material-icons" style="">expand_more</i></div>
+		      <div class="collapsible-body grey darken-3">
+					 <div class="col s12 m8 offset-m2 l6 offset-l3">
+			        <div class="card-panel grey lighten-5 z-depth-1">
+			          <div class="row valign-wrapper">
+			            <div class="col s2">
+			              <img src="images/sample.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+			            </div>
+			            <div class="col s10">
+			              <span class="black-text">
+			                Some contact info or projects could go here.
+			              </span>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
 
+		      </div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header">Vice President: Daniel Barrett<i class="material-icons" style="">expand_more</i></div>
+		      <div class="collapsible-body grey darken-3">
+		      	<div class="col s12 m8 offset-m2 l6 offset-l3">
+			        <div class="card-panel grey lighten-5 z-depth-1">
+			          <div class="row valign-wrapper">
+			            <div class="col s2">
+			              <img src="images/sample.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+			            </div>
+			            <div class="col s10">
+			              <span class="black-text">
+			                Some contact info or projects could go here.
+			              </span>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
+		      </div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header">Marketing Coordinator: Marianne Miranda<i class="material-icons" style="">expand_more</i></div>
+		      <div class="collapsible-body grey darken-3">
+	           <div class="col s12 m8 offset-m2 l6 offset-l3">
+			        <div class="card-panel grey lighten-5 z-depth-1">
+			          <div class="row valign-wrapper">
+			            <div class="col s2">
+			              <img src="images/sample.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+			            </div>
+			            <div class="col s10">
+			              <span class="black-text">
+			                Some contact info or projects could go here.
+			              </span>
+			            </div>
+			          </div>
+			        </div>
+			      </div>	     
+	         </div>
+		    </li>
+		  </ul>        
+        </div>
+        
+        <!--
         <div class="row">
             <div id="officers" class="officers-table"></div>
         </div> 
-  
+   		-->
       
     </body>
+    
+<div id="footer"></div>
+	
+        
+            
+
 
     <script>
     $( document ).ready(function(){
@@ -86,6 +166,7 @@
     })
     
     $("#navbar").load("navbar.html");
+    $("#footer").load("footer.html");
     $('.carousel.carousel-slider').carousel({fullWidth: true});
     
     </script>
