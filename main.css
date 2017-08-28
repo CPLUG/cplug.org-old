@@ -6,3 +6,20 @@
 .officer-tile {
     display: table-cell;
 }
+
+#club-info {
+  max-width: 1600px;
+}
+
+@media screen and (min-width: 993px) {
+  #club-info {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #club-info {
+    width: 90%;
+    max-width: 1600px; 
+  }
+}
