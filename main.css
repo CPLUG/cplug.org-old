@@ -23,3 +23,11 @@
     max-width: 1600px; 
   }
 }
+
+#events {
+  height: 75%;
+}
+
+#events-carousel {
+  height: 93%;
+}
