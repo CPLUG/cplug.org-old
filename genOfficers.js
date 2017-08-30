@@ -12,7 +12,7 @@
 //}
 
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "http://devjimheald.com:8000/officers/", false);
+xhr.open("GET", "http://devjimheald.com:8080/cplug/officers/", false);
 xhr.send(null);
 var html = xhr.responseText;
 
