@@ -12,7 +12,7 @@
 //}
 
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "http://localhost:8000", false);
+xhr.open("GET", "http://devjimheald.com:8000/officers/", false);
 xhr.send(null);
 var html = xhr.responseText;
 
