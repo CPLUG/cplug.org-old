@@ -12,7 +12,7 @@
 //}
 
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "https://cplug.devjimheald.com/cplug/officers/", false);
+xhr.open("GET", "https://cplug.devjimheald.com/api/officers/", false);
 xhr.send(null);
 var html = xhr.responseText;
 
