@@ -68,18 +68,17 @@
 						    <div id="mc_embed_signup_scroll">
 							<h4>Mailing List Sign-up</h4>
 							<div class="divider"></div><br>
-						<div class="mc-field-group">
-							<label for="mce-EMAIL">Email Address
-						</label>
-							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+						<div class="input-field">
+							<input type="email" value="" name="EMAIL" class="required email validate" id="mce-EMAIL">
+							<label for="email">Email</label>
 						</div>
-						<div class="mc-field-group">
-							<label for="mce-FNAME">First Name </label>
-							<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+						<div class="input-field">
+							<input type="text" value="" name="FNAME" class="validate" id="mce-FNAME">
+							<label for="First Name">First Name</label>
 						</div>
-						<div class="mc-field-group">
-							<label for="mce-LNAME">Last Name </label>
-							<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+						<div class="input-field">
+							<input type="text" value="" name="LNAME" class="validate" id="mce-LNAME">
+							<label for="Last Name">Last Name</label>
 						</div>
 							<div id="mce-responses" class="clear">
 								<div class="response" id="mce-error-response" style="display:none"></div>
@@ -97,35 +96,6 @@
 						</div>
 
 		<!--End mc_embed_signup-->              
-              
-              
-              
-                <!--<h4 class="black-text">
-                  Mailing List Sign-up
-                </h4>
-                <div class="divider"></div><br>
-                  <div class="input-field">
-                    <input id="name" type="text" class="validate">
-                    <label for="name">
-                      Name
-                    </label>
-                  </div>
-
-                <div class="input-field">
-                  <input id="email" type="email" class="validate">
-                  <label for="email">
-                    Email
-                  </label>
-                </div>				    		
-
-                <div class="modal-footer">
-                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">
-                    Subscribe
-                    <i class="material-icons right">
-                      send
-                    </i> 
-                  </a>
-                </div>-->
 
               </div>
             </div>
@@ -144,6 +114,7 @@
     <div class="section grey darken-3">
       <br>
       <div class="row container" id="event_cards">
+          <h3 class="white-text">Upcoming Events</h3>
       	<div id="events_cards"></div>
       </div>
     </div>
@@ -157,6 +128,7 @@
     <!-- Officer Section --> 		  
 
     <div class="container" id="officers-section">
+    <h3>Officers</h3>
       <ul class="collapsible popout" data-collapsible="accordion" id="officers-collapsible">
       </ul>
     </div>
@@ -170,16 +142,13 @@
   <script>
     $( document ).ready(function(){
       $(".button-collapse").sideNav();
+      $('.modal').modal();
       $('.parallax').parallax();
     })
 
     $("#navbar").load("navbar.html");
     $("#footer").load("footer.html");
     $('.carousel.carousel-slider').carousel({fullWidth: true});
-
-    $(document).ready(function(){
-      $('.modal').modal();
-    });
 
   </script>
   <script src="genOfficers.js"></script>
